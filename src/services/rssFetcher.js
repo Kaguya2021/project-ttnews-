@@ -46,7 +46,7 @@ export async function fetchAndStoreNews() {
 
           totalFetched++;
         }
-      } catch (err.message) {
+      } catch (err) {
         console.error(`Ошибка парсинга источника ${source.name} (${source.url}):`, err.message);
       }
     }
