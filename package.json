@@ -1,0 +1,22 @@
+{
+  "name": "tiktok-pulse-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for collecting, evaluating and formatting viral news for TikTok",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "db:migrate": "node src/db/migrate.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "grammy": "^1.21.1",
+    "node-cron": "^3.0.3",
+    "pg": "^8.11.3",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
